@@ -1,0 +1,15 @@
+Smart Water Bottle Monitoring System
+This project uses ESP8266 to create a Smart Water Bottle Monitoring System. It integrates sensors to monitor the water temperature and water level, displaying real-time data on an OLED screen and through a web interface.
+
+Features:
+Water Temperature Monitoring: Uses the DS18B20 temperature sensor to measure the water temperature.
+Water Level Monitoring: Uses an Ultrasonic Sensor to measure the water level in the bottle.
+OLED Display: Shows real-time water temperature, water level, and the device's IP address.
+Web Interface: Provides remote monitoring with temperature and water level readings displayed on a responsive webpage.
+Wi-Fi Connectivity: Allows access to the data from anywhere in your local network.
+Pin Configuration:
+TEMP_PIN: DS18B20 Sensor connected to GPIO0 (D3).
+TRIG_PIN: Ultrasonic Trigger connected to GPIO13 (D7).
+ECHO_PIN: Ultrasonic Echo connected to GPIO12 (D6).
+SWITCH_PIN: Switch connected to GPIO14 (D5).
+The system allows users to monitor the water temperature and level both locally via the OLED and remotely through the web page.
