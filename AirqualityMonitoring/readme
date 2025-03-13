@@ -1,0 +1,11 @@
+Air Quality Monitoring System
+This IoT-based Air Quality Monitoring System is designed to monitor environmental conditions, including temperature, humidity, soil moisture, and rain status. The system integrates sensors such as the DHT11 for temperature and humidity, a soil moisture sensor, and a rain sensor. The system connects to Wi-Fi and provides real-time data through a web interface. Users can view sensor readings on an LCD, and also download the data as a CSV file for further analysis.
+
+Features:
+
+Temperature and humidity monitoring (via DHT11)
+Soil moisture and rain detection
+Real-time data updates on a web page
+Data export as CSV for further analysis
+Display IP address on LCD
+Bootstrap-styled web interface
