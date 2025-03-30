@@ -1,0 +1,14 @@
+RFID-based Product Tracking System
+This project utilizes an MFRC522 RFID reader with an ESP32 to track product inventory based on RFID tags. The system reads RFID tags and checks them against predefined product information. Each product has an associated tag, quantity, and expiry date. Upon scanning a product's RFID tag, the system decrements the quantity and displays relevant product details like name, quantity, and expiry date.
+
+Key features:
+
+-RFID Tag Scanning: Scans RFID tags to identify products.
+
+-Product Inventory: Tracks product details such as name, quantity, and expiry date.
+
+-Stock Update: Decreases product quantity when a tag is scanned, indicating the item has been added to the cart.
+
+-Real-time Feedback: Displays product information and current stock level via serial communication.
+
+-This system is designed for product management and can be easily extended for retail, warehouse management, or inventory tracking applications.
