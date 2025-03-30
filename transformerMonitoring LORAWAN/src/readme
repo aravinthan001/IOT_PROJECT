@@ -1,0 +1,12 @@
+LoRa-based Sensor Monitoring System
+This project implements a LoRa-based sensor monitoring system using an ESP32. The system collects data from multiple sensors, including a rain sensor, temperature sensor (DS18B20), ultrasonic sensor (for oil level), and a current sensor. It then transmits the sensor readings via LoRa communication to a remote receiver.
+
+Key features:
+
+-LoRa Communication: Long-range wireless data transmission.
+
+-Sensor Monitoring: Measures rain status, temperature, oil level, and current.
+
+-Relay Control: Controls relays based on sensor data, such as turning off/on a device based on temperature or oil level thresholds.
+-Web Dashboard: Displays the received sensor data on a web interface, making it easy to monitor the system remotely.
+-The sender unit transmits data every 2 seconds, and the receiver displays the data on an OLED screen and web dashboard.
