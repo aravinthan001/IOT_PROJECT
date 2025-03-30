@@ -1,0 +1,25 @@
+Pet Monitoring System with ESP8266
+This project implements a Pet Monitoring System using the ESP8266. The system integrates an ultrasonic sensor, a buzzer, and a servo motor with a web interface to monitor and control the system remotely.
+
+Features:
+Wi-Fi Connectivity: Access the system remotely using a browser.
+
+Intruder Detection: Uses an ultrasonic sensor to detect objects within 20 cm and triggers an alert (buzzer and status update).
+
+Real-time Status: The LCD and web interface display real-time information about the system status (SAFE or GO OUTSIDE).
+
+Servo Control: Toggle a servo motor using the web interface to simulate control over a gate or door.
+
+Buzzer: Sounds when an intruder is detected.
+
+Web Interface:
+The status is updated every second to show the current state of the system (either SAFE or GO OUTSIDE).
+
+A button allows you to control the servo motor, switching it between ON and OFF positions.
+
+How to Use:
+Connect the system to your Wi-Fi network.
+
+Access the IP address displayed on the LCD screen from your browser to monitor and control the system.
+
+Toggle the servo control using the provided button on the web interface.
