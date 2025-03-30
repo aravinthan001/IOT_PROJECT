@@ -1,0 +1,37 @@
+Women Safety GPS and Alert System
+This project uses an ESP8266 microcontroller, a GPS module, an OLED display, and a web interface to track and share location data in case of emergency. The system also allows users to toggle the "Help Needed" status with a button and share their location via a web interface.
+
+Features
+GPS Tracking: Displays the current location using latitude and longitude from the GPS module.
+
+Help Request Button: Allows the user to toggle a "Help Needed" status by pressing a physical button.
+
+Web Interface: Displays GPS coordinates and help status, and provides options to:
+
+View the location on Google Maps.
+
+Get directions to the current location.
+
+Share the location via email.
+
+OLED Display: Shows current GPS coordinates, help status, and the IP address of the ESP8266.
+
+Components Needed
+ESP8266: A Wi-Fi microcontroller to connect to the internet and host the web server.
+
+GPS Module: A GPS receiver to track the device's location.
+
+OLED Display (128x64): A small display to show the current location and help status.
+
+Button: A physical button to toggle the "Help Needed" status.
+
+Wi-Fi Network: A network to which the ESP8266 can connect for internet access.
+
+Libraries Used
+Adafruit_SSD1306: For controlling the OLED display.
+
+TinyGPSPlus: For decoding GPS data and handling location information.
+
+ESPAsyncWebServer: For hosting the web interface.
+
+ESP8266WiFi: For connecting the ESP8266 to the Wi-Fi network
