@@ -1,0 +1,42 @@
+Smart Garbage Bin System with SMS Alert
+This project implements a Smart Garbage Bin System that detects when the garbage bin is full and sends an SMS notification to a predefined phone number. The system utilizes various sensors such as an IR Sensor, Ultrasonic Sensor, and a Servo Motor to automate the operation and inform the user about the garbage bin status.
+
+Features:
+Ultrasonic Sensor: Measures the garbage level in the bin. If the distance is below a certain threshold (indicating the bin is full), the system sends an SMS alert.
+
+IR Sensor: Detects when a person is nearby and opens the garbage bin lid accordingly.
+
+Servo Motor: Controls the garbage bin lid to open when a person is detected.
+
+ISD1820 Voice Module: Plays a voice message when a person is detected near the garbage bin.
+
+SMS Alert: Sends a message to a specified phone number when the garbage bin is full.
+
+Components:
+ESP32: Used to control the sensors and interface with the GSM module for SMS functionality.
+
+IR Sensor: Detects the presence of a person near the garbage bin.
+
+Ultrasonic Sensor: Measures the distance to the garbage level.
+
+Servo Motor: Opens or closes the bin lid.
+
+GSM Module: Sends SMS notifications when the bin is full.
+
+ISD1820 Voice Module: Plays a message when a person is detected.
+
+LCD Display: Displays the garbage bin distance and other relevant information.
+
+Key Benefits:
+Automated Operation: The system automatically opens the bin lid when a person is detected and closes it when they leave.
+
+SMS Notification: Get notified when the garbage bin is full and needs to be emptied.
+
+Easy Integration: The system is easy to set up and can be modified to fit different use cases.
+
+How It Works:
+Person Detection: When a person is detected by the IR sensor, the servo motor opens the garbage bin lid, and a voice message is played using the ISD1820 module.
+
+Garbage Level Measurement: The ultrasonic sensor continuously measures the garbage level. If the garbage level falls below a defined threshold, an SMS is sent to the specified phone number to alert the user.
+
+SMS Alert: If the bin is full, the system sends an SMS notification and avoids sending multiple SMS alerts until the bin is emptied.
