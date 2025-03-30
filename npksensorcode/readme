@@ -1,0 +1,6 @@
+Plant Sensor Monitoring System
+This project uses an ESP8266 to monitor environmental factors such as temperature, humidity, light intensity (LDR), and soil nutrients (nitrogen, phosphorus, potassium). The system collects data from multiple sensors, including a DHT11 for temperature and humidity, a LDR for light intensity, and an NPK sensor for measuring soil nutrients.
+
+The data is displayed on a web server and can be downloaded in CSV format for further analysis. The system also features an LCD display showing the device's IP address, making it easy to connect and monitor remotely.
+
+This project is ideal for anyone looking to build a smart plant monitoring system with real-time data logging and remote access.
