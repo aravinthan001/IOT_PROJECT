@@ -1,0 +1,24 @@
+Agriculture Automation System with ESP32
+This project is an Agriculture Automation System built using the ESP32. The system integrates environmental sensors such as temperature, humidity, and soil moisture sensors, providing automated control of relays based on the sensor readings. It also offers a web interface for manual control of the system and real-time monitoring.
+
+Key Features:
+
+Temperature Monitoring: Measures temperature using a DHT11 sensor and controls a relay if the temperature exceeds a predefined threshold.
+
+Humidity Monitoring: Measures humidity and activates a relay if the humidity is above a certain level and the soil is dry.
+
+Soil Moisture Monitoring: Measures soil moisture and activates a relay if the soil is too dry.
+
+Relay Control: Allows manual control of an additional relay (Relay 4) through the web interface.
+
+Web Interface: Provides real-time data display (temperature, humidity, and soil moisture) and relay status, with buttons to control the relays manually.
+
+Wi-Fi Connectivity: The system is controlled remotely via a web browser connected to the same Wi-Fi network.
+
+Accessing the System:
+
+Connect the ESP32 to your Wi-Fi network.
+
+The robot's IP address will be displayed on the LCD.
+
+Open the IP address in a web browser to view the sensor data and control the relays.
