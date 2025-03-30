@@ -1,0 +1,14 @@
+Water Quality Monitoring System
+This project is designed to monitor the water quality using an ESP32 microcontroller and various sensors such as the DS18B20 temperature sensor, pH sensor, and a turbidity sensor. The system continuously reads and displays real-time data on water parameters including pH, temperature, turbidity, and water status (Acidic, Neutral, Alkaline) on a web interface.
+
+Key features include:
+
+Real-time data display: The system presents sensor readings in real-time on a web page accessible via any browser.
+
+LCD display: The IP address is shown on an LCD screen for easy access to the web server.
+
+Data visualization: The web interface provides visual feedback for water quality, including turbidity status and pH level.
+
+Wi-Fi Connectivity: The system connects to Wi-Fi for remote access and monitoring.
+
+The water quality monitor can be used in a variety of applications, such as in environmental monitoring, aquariums, or agriculture, to ensure that the water remains in optimal condition for plants, animals, or other systems.
