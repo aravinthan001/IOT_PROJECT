@@ -1,0 +1,37 @@
+Urban Farming Sensor Data Monitoring System
+This project implements a real-time Agriculture Monitoring System using an ESP32 microcontroller to monitor various environmental parameters essential for farming. The system integrates the following sensors and features:
+
+Features:
+DHT11 Sensor: Measures the temperature and humidity levels in the environment.
+
+Soil Moisture Sensor: Monitors the soil moisture to control irrigation (activating a relay when the soil is dry).
+
+Rain Sensor: Detects the presence of rain.
+
+Web Interface: Real-time data display via a responsive web page, showing temperature, humidity, soil moisture, and rain sensor status.
+
+Data Visualization: Sensor data can be visualized as a chart, with the ability to download sensor readings in CSV format.
+
+Relay Control: The relay is activated when the soil moisture level is below the predefined threshold, triggering irrigation.
+
+Hardware:
+ESP32: Used for Wi-Fi connectivity and sensor management.
+
+DHT11: Humidity and temperature sensor.
+
+Soil Moisture Sensor: Analog sensor to detect moisture levels in the soil.
+
+Rain Sensor: Digital sensor to detect rainfall.
+
+Relay Module: Controls irrigation based on soil moisture levels.
+
+LCD: Displays the ESP32’s IP address for easy access to the web interface.
+
+Key Benefits:
+Remote Monitoring: View real-time sensor data through any browser.
+
+Charting and Analytics: Visualize the collected data using interactive charts.
+
+CSV Data Export: Download the sensor data for further analysis.
+
+This project is useful for urban farming, home gardening, and smart agriculture applications, helping automate and monitor key environmental factors for better crop growth.
