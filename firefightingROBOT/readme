@@ -1,0 +1,22 @@
+Fire Fighting Robot with ESP32
+This project is a Fire Fighting Robot built using the ESP32. The robot is designed to detect fire, move autonomously, and spray water in response to fire detection. The system is controlled via a web interface hosted by the ESP32, allowing the user to manually control the robot's movements and activate/deactivate the water pump.
+
+Key Features:
+
+Fire Detection: Monitors flame sensor for fire detection.
+
+Movement Control: Allows manual control of robot movement (forward, backward, left, right, stop).
+
+Water Pump Control: Manages the activation and deactivation of a water pump to extinguish flames.
+
+Servo Control: Adjusts the position of a water tube's head to spray water.
+
+Web Interface: Provides an easy-to-use interface for manual operation and control.
+
+Wi-Fi Connectivity: The robot can be controlled remotely through any device connected to the same network.
+
+Accessing the System:
+
+Connect the ESP32 to your Wi-Fi network, and the robot’s IP address will be displayed on the LCD screen.
+
+Use a web browser to control the robot and view the flame sensor status.
